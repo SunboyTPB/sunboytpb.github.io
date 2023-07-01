@@ -1,3 +1,12 @@
+@font-face {
+    font-family: HarmonyOS;
+    src: url("font/HarmonyOS_Sans_SC_Regular.ttf");
+}
+
+body {
+    font-family: HarmonyOS;
+}
+
 .title {
     height: 80px;
     background-color: blue;
@@ -25,22 +34,23 @@ div.home {
 
 button {
     color: white;
-    background-color: black;
+    background-color: blue;
     font-size: large;
     padding-left: 10px;
     padding-right: 12px;
     border-style: solid;
-    border-color: white;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 500px;
 }
 
 button:hover {
-    color: black;
-    background-color: grey;
-    border-color: black;
+    color: white;
+    background-color: red;
+    border-color: rgba(0, 0, 0, 0);
 }
 
 button:active {
-    background-color: rgb(220, 218, 218);
+    background-color: rgb(112, 0, 0);
 }
 
 div.content {
@@ -58,7 +68,7 @@ p.content {
 }
 
 
-a.home, a.writings, a.about {
+a.home, a.writings, a.about, a.pay {
     color: white;
     height: 20%;
     margin-top: 25px;

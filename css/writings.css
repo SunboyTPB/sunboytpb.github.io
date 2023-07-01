@@ -1,3 +1,12 @@
+@font-face {
+    font-family: HarmonyOS;
+    src: url("font/HarmonyOS_Sans_SC_Regular.ttf");
+}
+
+body {
+    font-family: HarmonyOS;
+}
+
 .title {
     height: 80px;
     background-color: blue;
@@ -47,7 +56,7 @@ p.content {
     text-align: center;
 }
 
-a.home, a.writings, a.about, a.more, a.none {
+a.home, a.writings, a.about, a.pay, a.more, a.none {
     color: white;
     height: 20%;
     margin-top: 25px;
@@ -87,6 +96,10 @@ a.none {
 
     a.more {
         display: block;
+    }
+
+    a.pay {
+        display: none;
     }
 
     div.details {
