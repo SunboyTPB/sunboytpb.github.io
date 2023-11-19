@@ -1,42 +1,56 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>关于</title>
+        <title>TPB个人网站 - 关于</title>
         <meta charset="utf-8">
+        <meta name="msvalidate.01" content="C9A9EE71F3DB72A940736C733BD5F4CE" />
         <style>
-            @import url("css/about.css");
+            @import url("./css/about.css");
+            @import url("./css/tongyong.css");
         </style>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div class="title">
-            <div class="logo">
-
+            <div class="title_logo">
+                <img src="./img/LOGO.png" class="title_logo_image"/>
             </div>
-            <div class="functions">
-                <a class="home" href="index.html">主页</a>
-                <a class="writings" href="writings.html">作品</a>
-                <a class="about" href="about.html">关于</a>
-                <a class="pay" href="pay.html">打赏</a>
+            <div class="title_functions">
+                <div class="title_mobile_functions_show">
+                    <a id="mobile_show">: : :</a>
+                </div>
+                <div class="title_mobile_functions" id="title_mobile_functions">
+                    <ul class="title_mobile_functions">
+                        <li class="title_mobile_functions"><a href="index.html">主页</a></li>
+                        <li class="title_mobile_functions"><a href="notice.html">公告</a></li>
+                        <li class="title_mobile_functions"><a href="writings.html">作品</a></li>
+                        <li class="title_mobile_functions"><a class="mobile_active" href="about.html">关于</a></li>
+                        <li class="title_mobile_functions"><a href="tips.html">打赏</a></li>
+                    </ul>
+                </div>
+                <a class="computer" href="index.html">主页</a>
+                <a class="computer" href="notice.html">公告</a>
+                <a class="computer" href="writings.html">作品</a>
+                <a class="active computer" href="about.html">关于</a>
+                
             </div>
         </div>
-        <div class="details">
-            <div class="text">
-                <h1>关于我们</h1>
-                <p>这是本作者基于html所编写的网站，感谢在网站编写方面教育我的所有人。</p>
-                <p>目前本作者正在努力改善此网站，网站中将不断加入新的功能。</p>
-                <p>以后本作者将在此网站发布新的小说预告等内容，请大家多多期待！</p>
-                <p>感谢Github官方、HarmonyOS开发者官网等提供网站显示和图标显示等帮助！</p>
-                <p>若您有意和我合作，您可加我QQ：3022930232</p>
-                <button onclick="location.href = 'us.html'">查看我们组员详细信息</button>
+        <div class="content">
+            <div class="window">
+                <h2>关于我“们”</h2>
+                <p>这是本作者基于html所编写的网站，感谢在网站方面教育我的所有人</p>
+                <p>本作者将会在此网站发布新小说预告等内容，请大家多多期待！</p>
+                <p></p>
+                <p>若您有意和我合作，请添加我的QQ：3022930232</p>
+                <!-- <p><button class="seeUs">查看我们</button></p> -->
             </div>
-            
         </div>
-        <div class="data">
-            <p class="content">Projected by Github, SunboyTPB 2023-2023</p>
+        <div class="version">
+            Made by SunboyTPB, 2023-2023. Beta Version 2.0.0
         </div>
-    </body>
+    </body> 
     <script>
 
     </script>
+    <script type="text/javascript" src="./js/index_mobile.js"></script>
 </html>
