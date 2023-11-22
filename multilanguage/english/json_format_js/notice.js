@@ -5,4 +5,10 @@ var notice = [
         "title": "UPDATES: The Neweast Version of Official Website is Coming!",
         "content": "Hello, everyone, this is the writer, T.P.B. Now the neweast version of website is coming! In this website, I have changed the UI and other things! Anyway, let's experience the new functions!"
     },
+    {
+        "id": 2,
+        "addtime": "2023-11-23 00:00:00",
+        "title": "The new fan fiction will be publish at Jan, 2024!",
+        "content": "Hello everyone! This is the writer, T.P.B. I will publish the new fan fiction at Jan, 2024! Have an exceptation!"
+    }
 ]

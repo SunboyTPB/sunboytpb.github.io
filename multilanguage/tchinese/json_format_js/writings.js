@@ -13,4 +13,11 @@ var writings = [
         "description": "第五次聖杯戰爭爆發二十年以後的2024年，一個大聖杯卻突然出現了。而這個大聖杯也牽扯到了另外一個世界。人們把這種規模的聖杯戰爭，稱之爲聖杯討伐戰。而現在，兩個世界的他們將會做出不同的選額。這兩個世界的命運，將會走向何處？",
         "novelurl": "SF轻小说：https://book.sfacg.com/Novel/650124/\r\n哔哩哔哩专栏：https://www.bilibili.com/read/cv24652183?spm_id_from=333.999.0.0\r\n晋江文学：https://www.jjwxc.net/onebook.php?novelid=8429432"
     },
+    {
+        "id": 3,
+        "title": "未發佈的新小説",
+        "type": "同人小説",
+        "description": "未發佈的新小説",
+        "novelurl": "敬請期待！"
+    }
 ]

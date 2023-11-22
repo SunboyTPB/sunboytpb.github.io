@@ -13,4 +13,11 @@ var writings = [
         "description": "In year 2024, what past 20 years from the 5th Holy Grail War, the big Holy Grail is appeared. And this holy grail will effect the another world. Magicians called this special Holy Grail War as the Holy Grail Pursing War. Now magicians, who is in the different two world, will have different decision. What will happen to these worlds?",
         "novelurl": "SF Light Novel：https://book.sfacg.com/Novel/650124/\r\nBilibili：https://www.bilibili.com/read/cv24652183?spm_id_from=333.999.0.0\r\nJinjiang Novel：https://www.jjwxc.net/onebook.php?novelid=8429432"
     },
+    {
+        "id": 3,
+        "title": "New novel that didn't published",
+        "type": "Fan Fiction",
+        "description": "New novel that didn't published",
+        "novelurl": "Have an exceptation!"
+    }
 ]
